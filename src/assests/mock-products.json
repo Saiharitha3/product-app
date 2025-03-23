@@ -1,0 +1,38 @@
+
+[
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "price": 799.99,
+      "description": "The latest smartphone with advanced features and high-performance camera.",
+      "imageUrl": "https://via.placeholder.com/200x200?text=Smartphone"
+    },
+    {
+      "id": 2,
+      "name": "Laptop Pro",
+      "price": 1299.99,
+      "description": "Powerful laptop for professionals with high-speed processor and ample storage.",
+      "imageUrl": "https://via.placeholder.com/200x200?text=Laptop"
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "price": 199.99,
+      "description": "Noise-cancelling wireless headphones with 30-hour battery life.",
+      "imageUrl": "https://via.placeholder.com/200x200?text=Headphones"
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch",
+      "price": 249.99,
+      "description": "Feature-rich smartwatch with health monitoring and GPS tracking.",
+      "imageUrl": "https://via.placeholder.com/200x200?text=Smartwatch"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "price": 89.99,
+      "description": "Portable speaker with rich sound quality and waterproof design.",
+      "imageUrl": "https://via.placeholder.com/200x200?text=Speaker"
+    }
+  ]

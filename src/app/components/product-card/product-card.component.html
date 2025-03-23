@@ -1,0 +1,8 @@
+<!-- src/app/components/product-card/product-card.component.html -->
+<div class="product-card">
+    <img *ngIf="product.imageUrl" [src]="product.imageUrl" [alt]="product.name">
+    <h3>{{ product.name }}</h3>
+    <p class="price">${{ product.price.toFixed(2) }}</p>
+    <p>{{ product.description }}</p>
+    <button (click)="onSelect()">View Details</button>
+  </div>

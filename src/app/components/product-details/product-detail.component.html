@@ -1,0 +1,22 @@
+<!-- src/app/components/product-detail/product-detail.component.html -->
+<div class="container">
+    <div *ngIf="loading" class="loading">Loading product...</div>
+    
+    <div *ngIf="error" class="error">
+      Product not found or error loading product.
+      <button (click)="goBack()">Back to Products</button>
+    </div>
+    
+    <div *ngIf="!loading && !error && product" class="product-detail">
+      <div class="product-image">
+        <img *ngIf="product.imageUrl" [src]="product.imageUrl" [alt]="product.name">
+      </div>
+      
+      <div class="product-info">
+        <h2>{{ product.name }}</h2>
+        <p class="price">${{ product.price.toFixed(2) }}</p>
+        <p class="description">{{ product.description }}</p>
+        <button (click)="goBack()">Back to Products</button>
+      </div>
+    </div>
+  </div>
