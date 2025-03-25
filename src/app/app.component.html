@@ -182,8 +182,13 @@
     <h1>{{ title }}</h1>
     <nav>
       <a routerLink="/products"></a>
+      <a mat-button routerLink="/products">Products</a>
+      <a mat-button routerLink="/cart">Cart</a>
     </nav>
   </header>
+
+  
+    
 
 <main class="main">
   <div class="content">
@@ -343,4 +348,4 @@
 <footer>
   <p>&copy; 2025 Product App. All rights reserved.</p>
 </footer>
-<router-outlet />
+<router-outlet></router-outlet>

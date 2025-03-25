@@ -9,6 +9,14 @@ import { ProductCardComponent } from './components/product-card/product-card.com
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductDetailComponent } from './components/product-details/product-detail.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +27,12 @@ import { ProductDetailComponent } from './components/product-details/product-det
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule, // Required for Angular Material animations
+    MatToolbarModule,
+    MatButtonModule,
+    MatCardModule,
+    MatGridListModule,
+    MatProgressSpinnerModule,
     HttpClientModule
   ],
   providers: [],

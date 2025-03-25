@@ -38,3 +38,14 @@
   .product-card button:hover {
     background-color: #3367d6;
   }
+
+  .product-card {
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    img {
+      max-height: 150px;
+      object-fit: cover;
+    }
+  }
+  

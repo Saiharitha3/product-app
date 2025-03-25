@@ -37,3 +37,8 @@
     text-align: center;
     color: #666;
   }
+
+  .spacer {
+    flex: 1;
+  }
+  
