@@ -1,4 +1,4 @@
-// src/app/app.module.ts
+/* src/app/app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
@@ -17,6 +17,18 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './app.component.html',
+})
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,9 +45,25 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatCardModule,
     MatGridListModule,
     MatProgressSpinnerModule,
+    CommonModule,
     HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { } */
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+import { MatButtonModule } from '@angular/material/button';
+import { CommonModule } from '@angular/common'; // Required for structural directives
+
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, MatButtonModule, CommonModule], // Removed RouterOutlet
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+
