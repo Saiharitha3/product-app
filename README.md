@@ -18,9 +18,28 @@ Ensure you have the following installed before setting up the project:
 
 - Node.js (LTS version recommended)
 - Angular CLI
-- npm or yarn package manager
 
-## Development server
+## How to Run the Project
+
+Open a terminal and run:
+
+```bash
+git clone https://github.com/your-username/product-app.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd product-app
+```
+
+Install Dependencies:
+
+```bash
+npm install
+```
+
+## Development Server
 
 To start a local development server, run:
 
