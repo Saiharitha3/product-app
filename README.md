@@ -21,7 +21,11 @@ Ensure you have the following installed before setting up the project:
 
 ## How to Run the Project
 
-Open a terminal and run:
+Click the Fork button in the top-right corner.
+
+This will create a copy of the repository in your GitHub account.
+
+Clone your forked repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/product-app.git
