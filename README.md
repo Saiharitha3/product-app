@@ -8,17 +8,17 @@ Product App is an Angular-based web application designed to manage products effi
 
 ## Features
 
-- "User-friendly UI"
-- "Product listing and management"
-- "API integration"
+- User-friendly UI
+- Product listing and management
+- API integration
 
 ## Prerequisites
 
 Ensure you have the following installed before setting up the project:
 
-- "Node.js (LTS version recommended)"
-- "Angular CLI"
-- "npm or yarn package manager"
+- Node.js (LTS version recommended)
+- Angular CLI
+- npm or yarn package manager
 
 ## Development server
 
