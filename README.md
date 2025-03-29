@@ -2,6 +2,24 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
 
+## Overview
+
+Product App is an Angular-based web application designed to manage products efficiently.
+
+## Features
+
+- "User-friendly UI"
+- "Product listing and management"
+- "API integration"
+
+## Prerequisites
+
+Ensure you have the following installed before setting up the project:
+
+- "Node.js (LTS version recommended)"
+- "Angular CLI"
+- "npm or yarn package manager"
+
 ## Development server
 
 To start a local development server, run:
